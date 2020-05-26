@@ -1,0 +1,2 @@
+clustering: main.cpp jaroWinkler.cpp kmeans.cpp
+     gcc -o clustering main.cpp jaroWinkler.cpp kmeans.cppc -I.
