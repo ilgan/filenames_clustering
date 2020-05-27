@@ -1,0 +1,8 @@
+clustering: main.o jaroWinkler.o kmeans.o 
+	cc -o clustering main.o jaroWinkler.o kmeans.o
+
+jaroWinkler.o: jaroWinkler.c jaroWinkler.h
+	cc -c jaroWinkler.c
+
+kmeans.o: kmeans.c
+	cc -c kmeans.c
